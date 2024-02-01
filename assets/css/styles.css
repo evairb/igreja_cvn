@@ -198,20 +198,37 @@
 }
 
 .back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  
+  bottom: 10rem;
+  right: 10rem;
   background: var(--white-color);
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
   color: var(--primary-color);
-  transform: rotate(-90deg);
-  border: 0.1rem solid var(--primary-color);
+  
 }
+/* .back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 15rem;
+  background: var(--white-color);
+  width: 18rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8%;
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
+} */
+.return-top {
+  transform: rotate(-90deg);
+}
+
+
 
 @media (max-width: 800px) {
   .intro-content, .grid {
