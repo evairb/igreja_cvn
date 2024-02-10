@@ -198,7 +198,6 @@
 }
 
 .back-to-top {
-  
   bottom: 10rem;
   right: 10rem;
   background: var(--white-color);
@@ -209,6 +208,18 @@
   align-items: center;
   color: var(--primary-color);
   
+}
+
+
+.back-to-end{
+  position: absolute;
+    bottom: 10rem;
+    left: 0;
+    width: 100%;
+    background: #f6f4f4; /* Cor de fundo do rodapé */
+    color: rgb(18, 16, 16); /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
 }
 /* .back-to-top {
   position: fixed;

@@ -7,6 +7,15 @@
  
 }
 
+.image-bg {
+  background-image: url('../img/main-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+  
+ 
+}
+
 .white-bg {
   background: var(--white-color);
   color: var(--primary-color);
